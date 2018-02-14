@@ -1,4 +1,7 @@
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cred_card_cielo`. To experiment with that code, run `bin/console` for an interactive prompt.
+
+# Payment-Integration-Redecard
+This is a way to facilitate transactions with the Network Card API. Referring to transaction ordering, transaction capitalization, partial transaction capitalization, transaction with cap, automatic transaction ture, token creation, token transaction, full transaction cancellation, and partial transaction cancellation.
+
 
 TODO: Delete this and the text above, and describe your gem
 
