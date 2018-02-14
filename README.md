@@ -6,21 +6,29 @@ TODO: Delete this and the text above, and describe your gem
 
 Add this line to your application's Gemfile:
 
-```ruby
+```
 gem 'payment-integration-cielo'
 ```
 
 And then execute:
-
+```
     $ bundle install
+```
 
 ## **install**
 
-
+```
     $ gem install payment-integration-cielo
+```
 
 ## Required 
   All as transactions necessarily needed from the rods of id the key and the end point
+```
+ merchant_id = "1006993069"
+ merchant_key = "25fbb99741c739dd84d7b06ec78c9bac718838630f30b112d033ce2e621b34f3" 
+ environment = PaymentIntegrationCielo::CieloCardPayment::TEST
+  
+```
 
 ## **Create Transaction**
 ```
