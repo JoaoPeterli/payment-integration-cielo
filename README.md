@@ -12,12 +12,15 @@ gem 'payment-integration-cielo'
 
 And then execute:
 
-    $ bundle install
+ ``` 
+  $ bundle install
+ ``` 
 
 ## **install**
 
-
+``` 
     $ gem install payment-integration-cielo
+ ```
 
 ## Required 
   All as transactions necessarily needed from the rods of id the key and the end point
@@ -131,8 +134,6 @@ transaction = cielo.cacellation_request(transaction)
 
 ## **Canceling a transaction - Partial**
 ```
-Canceling a transaction - Partial
-
 require 'payment-integration-cielo'
 
 cielo = PaymentIntegrationCielo::CieloCardPayment.new(merchant_id, merchant_key, environment)     
