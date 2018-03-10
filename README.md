@@ -1,4 +1,7 @@
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cred_card_cielo`. To experiment with that code, run `bin/console` for an interactive prompt.
+
+# Payment-Integration-Cielo
+This is a way to facilitate transactions with the cielo Card API. Referring to transaction ordering, transaction capitalization, partial transaction capitalization, transaction with cap, automatic transaction ture, token creation, token transaction, full transaction cancellation, and partial transaction cancellation.
+
 
 TODO: Delete this and the text above, and describe your gem
 
@@ -6,11 +9,12 @@ TODO: Delete this and the text above, and describe your gem
 
 Add this line to your application's Gemfile:
 
-```ruby
+```
 gem 'payment-integration-cielo'
 ```
 
 And then execute:
+<<<<<<< HEAD
 
  ``` 
   $ bundle install
@@ -21,9 +25,26 @@ And then execute:
 ``` 
     $ gem install payment-integration-cielo
  ```
+=======
+```
+    $ bundle install
+```
+
+## **install**
+
+```
+    $ gem install payment-integration-cielo
+```
+>>>>>>> 6a34ddcf0076c58c4d7d0ffd4e3da4d14ed63725
 
 ## Required 
   All as transactions necessarily needed from the rods of id the key and the end point
+```
+ merchant_id = "1006993069"
+ merchant_key = "25fbb99741c739dd84d7b06ec78c9bac718838630f30b112d033ce2e621b34f3" 
+ environment = PaymentIntegrationCielo::CieloCardPayment::TEST
+  
+```
 
 ## **Create Transaction**
 ```
